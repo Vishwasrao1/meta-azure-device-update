@@ -2,7 +2,8 @@
 # used to validate the signatures of images.
 # Note: ADU reference images are signed with test keys.
 
-LICENSE="CLOSED"
+LICENSE = "MIT"
+LIC_FILES_CHKSUM = "file://${THISDIR}/../../LICENSE.md;md5=d8264fe5b90c62dcf0dc1b70a04aef2d"
 
 # Path in the image to place the generated public key file.
 ADUC_KEY_DIR = "/adukey"

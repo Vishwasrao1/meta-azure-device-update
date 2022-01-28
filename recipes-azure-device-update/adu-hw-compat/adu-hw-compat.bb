@@ -3,7 +3,8 @@
 # This file is used by swupdate (or potentially other installer)
 # to determine if an update is compatible with this hardware.
 
-LICENSE="CLOSED"
+LICENSE = "MIT"
+LIC_FILES_CHKSUM = "file://${THISDIR}/../../LICENSE.md;md5=d8264fe5b90c62dcf0dc1b70a04aef2d"
 
 # Generate the hardware compatability file
 do_compile() {

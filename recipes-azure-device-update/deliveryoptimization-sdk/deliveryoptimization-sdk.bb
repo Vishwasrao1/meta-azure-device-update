@@ -8,7 +8,8 @@
 #                       Valid values are Debug, Release, RelWithDebInfo, and MinRelSize.
 #                       These values are the same as the CMAKE_BUILD_TYPE variable.
 
-LICENSE = "CLOSED"
+LICENSE = "MIT"
+LIC_FILES_CHKSUM = "file://${THISDIR}/../../LICENSE.md;md5=d8264fe5b90c62dcf0dc1b70a04aef2d"
 
 DO_SRC_URI ?= "gitsm://github.com/microsoft/do-client;branch=main"
 SRC_URI = "${DO_SRC_URI}"

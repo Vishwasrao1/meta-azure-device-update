@@ -1,6 +1,7 @@
 # Generates a new temporary directory, /aduc-logs, for ADU Client log files.
 
-LICENSE="CLOSED"
+LICENSE = "MIT"
+LIC_FILES_CHKSUM = "file://${THISDIR}/../../LICENSE.md;md5=d8264fe5b90c62dcf0dc1b70a04aef2d"
 
 SRC_URI = "\
     file://adu-logs.conf \

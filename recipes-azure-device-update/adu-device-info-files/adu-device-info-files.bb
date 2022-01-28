@@ -9,7 +9,8 @@
 # ADU_SOFTWARE_VERSION  The software version for the image/firmware. Will be written to
 #                       the version file that is read by ADU Client.
 
-LICENSE="CLOSED"
+LICENSE = "MIT"
+LIC_FILES_CHKSUM = "file://${THISDIR}/../../LICENSE.md;md5=d8264fe5b90c62dcf0dc1b70a04aef2d"
 
 # Generate the manufacturer, model, and version files
 do_compile() {

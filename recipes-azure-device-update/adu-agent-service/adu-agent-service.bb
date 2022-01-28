@@ -1,7 +1,8 @@
 # Installs the ADU Agent Service that will auto-start the ADU Agent
 # and pass in the IoT Hub connection string located at /boot/iot-con-string.txt.
 
-LICENSE="CLOSED"
+LICENSE = "MIT"
+LIC_FILES_CHKSUM = "file://${THISDIR}/../../LICENSE.md;md5=d8264fe5b90c62dcf0dc1b70a04aef2d"
 
 SRC_URI = "\
     file://adu-agent.service \
